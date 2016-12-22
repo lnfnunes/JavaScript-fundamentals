@@ -47,7 +47,7 @@ Could be studied by day as individual, group and/or dojo.
     * [Prototypes](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object_prototypes)
     * [Inheritance](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Inheritance)
 
-> Exercise 4
+> [Exercise 4](./exercises/4.module.md)
 
 ### Module 5 (1h) ###
 * [Closures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures)
