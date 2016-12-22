@@ -53,7 +53,7 @@ Could be studied by day as individual, group and/or dojo.
 * [Closures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures)
     * [Memory-leak]()
 
-> Exercise 5
+> [Exercise 5](./exercises/5.module.md)
 
 ### Module 6 (1h) ###
 * [Try/Catch](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Control_flow_and_error_handling#Exception_handling_statements)
