@@ -28,17 +28,16 @@ Could be studied by day as individual, group and/or dojo.
 
 ### Module 2 (1h) ###
 * [Objects](https://www.javascript.com/learn/javascript/objects)
-* [Arrays](https://www.javascript.com/learn/javascript/objects)
+* [Arrays](https://www.javascript.com/learn/javascript/arrays)
 * [Date](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Numbers_and_dates#Date_object)
 
 > [Exercise 2](./exercises/2.module.md)
 
 ### Module 3 (2h) ###
 * [Regular Expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions)
-* [Functions](https://www.javascript.com/learn/javascript/functions)
+* [Functions](https://developer.mozilla.org/en-US/docs/Glossary/Function)
     * [Parameters](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions#Function_parameters)
-    * [Arguments](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions#Using_the_arguments_object)
-    * [Different types of functions](https://developer.mozilla.org/en-US/docs/Glossary/Function)
+    * [Arguments object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions#Using_the_arguments_object)
 
 > [Exercise 3](./exercises/3.module.md)
 
