@@ -33,7 +33,7 @@ Could be studied by day as individual, group and/or dojo.
 
 > [Exercise 2](./exercises/2.module.md)
 
-### Module 3 (2h) ###
+### Module 3 (1h) ###
 * [Regular Expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions)
 * [Functions](https://developer.mozilla.org/en-US/docs/Glossary/Function)
     * [Parameters](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions#Function_parameters)
@@ -41,7 +41,7 @@ Could be studied by day as individual, group and/or dojo.
 
 > [Exercise 3](./exercises/3.module.md)
 
-### Module 4 (1h) ###
+### Module 4 (2h) ###
 * [Custom objects ("Class")](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Introduction_to_Object-Oriented_JavaScript)
     * [Prototypes](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object_prototypes)
     * [Inheritance](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Inheritance)
@@ -68,6 +68,6 @@ Could be studied by day as individual, group and/or dojo.
 
 > Exercise 7
 
-### DOJO (1h) ###
+### DOJO (2h) ###
 
 > DOJO - JS Fundamentals
