@@ -59,7 +59,7 @@ Could be studied by day as individual, group and/or dojo.
 * [Error](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Control_flow_and_error_handling#Utilizing_Error_objects)
 * [console](https://developers.google.com/web/tools/chrome-devtools/console/console-reference)
 
-> Exercise 6
+> [Exercise 6](./exercises/6.module.md)
 
 ### Module 7 (1h) ###
 * [Map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
