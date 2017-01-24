@@ -66,7 +66,7 @@ Could be studied by day as individual, group and/or dojo.
 * [Filter](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
 * [Reduce](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce)
 
-> Exercise 7
+> [Exercise 7](./exercises/7.module.md)
 
 ### DOJO (2h) ###
 
