@@ -50,7 +50,6 @@ Could be studied by day as individual, group and/or dojo.
 
 ### Module 5 (1h) ###
 * [Closures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures)
-    * [Memory-leak]()
 
 > [Exercise 5](./exercises/5.module.md)
 
