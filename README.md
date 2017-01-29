@@ -10,25 +10,26 @@ Could be studied by day as individual, group and/or dojo.
 * [CodePen](http://codepen.io)
 * [JSFiddle](http://jsfiddle.net)
 * [Cloud9](http://c9.io)
+* [GistRun](https://gist.run/)
 
 ## Content index ##
 
 ### Module 1 (1h) ###
 * [Variables](https://www.javascript.com/learn/javascript/variables)
-* [Strings](https://www.javascript.com/learn/javascript/strings)
-* [Numbers](https://www.javascript.com/learn/javascript/numbers)
-* [Booleans](https://www.javascript.com/learn/javascript/booleans)
+* Strings - [Javascript.com](https://www.javascript.com/learn/javascript/strings); [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)
+* Numbers - [Javascript.com](https://www.javascript.com/learn/javascript/numbers); [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)
+* Booleans - [Javascript.com](https://www.javascript.com/learn/javascript/booleans); [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean)
 * [Null](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null)
 * [Undefined](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)
-* [Operators](https://www.javascript.com/learn/javascript/operators)
-* [Conditionals](https://www.javascript.com/learn/javascript/conditionals)
+* Operators - [Javascript.com](https://www.javascript.com/learn/javascript/operators); [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators)
+* Conditionals- [Javascript.com](https://www.javascript.com/learn/javascript/conditionals); [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)
 * [Loops](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration)
 
 > [Exercise 1](./exercises/1.module.md)
 
 ### Module 2 (1h) ###
-* [Objects](https://www.javascript.com/learn/javascript/objects)
-* [Arrays](https://www.javascript.com/learn/javascript/arrays)
+* Objects - [Javascript.com](https://www.javascript.com/learn/javascript/objects); [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects)
+* Arrays - [Javascript.com](https://www.javascript.com/learn/javascript/arrays); [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
 * [Date](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Numbers_and_dates#Date_object)
 
 > [Exercise 2](./exercises/2.module.md)
