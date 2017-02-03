@@ -37,7 +37,7 @@ Could be studied by day as individual, group and/or dojo.
 ### Module 3 (1h) ###
 * [Regular Expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions)
     * Online tool: [regex101](https://regex101.com/)
-* [Functions](https://developer.mozilla.org/en-US/docs/Glossary/Function)
+* Functions - [Javascript.com](https://www.javascript.com/learn/javascript/functions); [MDN](https://developer.mozilla.org/en-US/docs/Glossary/Function)
     * [Parameters](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions#Function_parameters)
     * [Arguments object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions#Using_the_arguments_object)
 
