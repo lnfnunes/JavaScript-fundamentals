@@ -44,7 +44,7 @@ Could be studied by day as individual, group and/or dojo.
 > [Exercise 3](./exercises/3.module.md)
 
 ### Module 4 (2h) ###
-* [Custom objects ("Class")](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Introduction_to_Object-Oriented_JavaScript)
+* [Custom objects ("Class")](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_JS)
     * [Prototypes](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object_prototypes)
     * [Inheritance](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Inheritance)
 
