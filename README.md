@@ -25,14 +25,14 @@ Could be studied by day as individual, group and/or dojo.
 * Conditionals- [Javascript.com](https://www.javascript.com/learn/javascript/conditionals); [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)
 * [Loops](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration)
 
-> [Exercise 1](./exercises/1.module.md)
+> [Exercise 1](./docs/exercises/1.module.md)
 
 ### Module 2 (1h) ###
 * Objects - [Javascript.com](https://www.javascript.com/learn/javascript/objects); [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects)
 * Arrays - [Javascript.com](https://www.javascript.com/learn/javascript/arrays); [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
 * [Date](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Numbers_and_dates#Date_object)
 
-> [Exercise 2](./exercises/2.module.md)
+> [Exercise 2](./docs/exercises/2.module.md)
 
 ### Module 3 (1h) ###
 * [Regular Expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions)
@@ -41,104 +41,136 @@ Could be studied by day as individual, group and/or dojo.
     * [Parameters](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions#Function_parameters)
     * [Arguments object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions#Using_the_arguments_object)
 
-> [Exercise 3](./exercises/3.module.md)
+> [Exercise 3](./docs/exercises/3.module.md)
 
 ### Module 4 (2h) ###
 * [Custom objects ("Class")](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_JS)
     * [Prototypes](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object_prototypes)
     * [Inheritance](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Inheritance)
 
-> [Exercise 4](./exercises/4.module.md)
+> [Exercise 4](./docs/exercises/4.module.md)
 
 ### Module 5 (1h) ###
 * [Closures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures)
 
-> [Exercise 5](./exercises/5.module.md)
+> [Exercise 5](./docs/exercises/5.module.md)
 
 ### Module 6 (1h) ###
 * [Try/Catch](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Control_flow_and_error_handling#Exception_handling_statements)
 * [Error](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Control_flow_and_error_handling#Utilizing_Error_objects)
 * [console](https://developers.google.com/web/tools/chrome-devtools/console/console-reference)
 
-> [Exercise 6](./exercises/6.module.md)
+> [Exercise 6](./docs/exercises/6.module.md)
 
 ### Module 7 (1h) ###
 * [Map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
 * [Filter](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
 * [Reduce](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce)
 
-> [Exercise 7](./exercises/7.module.md)
+> [Exercise 7](./docs/exercises/7.module.md)
 
 ### DOJO (2h) ###
 
 > DOJO - JS Fundamentals
 
+## Implementing solutions for exercises ##
+
+You can check if your solutions are correct using the TDD paradigm.
+
 ### Setup environment ###
 If you use npm (default):
 
-`npm install`
+```shell
+npm install
+```
 
-If you use yarn, you can use:
+If you use yarn (it's a new tool for node packages which's way faster), you can use:
 
-`yarn install`
+```shell
+yarn install
+```
 
 ### Before coding ###
-In order to use this structure to test your solutions first you should fork this repository.
-
-When you fork this repository you'll be able commit and push your responses to github without worry about losing your code and also not mess up with the shared repository, which has the tests structure and all shared info.
+First you should fork this repository so you'll be able commit and push your solutions to github without worry about losing your code and also not mess up with the shared repository, which has the tests structure.
 
 However, if you'd like to retrieve new updates from the mainstream repository, you'll have to bring the changes manually to your repository.
 
-You can do this adding the mainstream remote to your forked repository or you'll be able to merge via github interface if you have the PullRequests URL.
+You can do this by adding the original remote to your forked repository and merging from there to your local repository.
 
-### Running your exercises ###
-To run your solutions, you must run:
+There's an easy tutorial to keep forked repositories updated [here](https://www.youtube.com/watch?v=-zvHQXnBO6c).
 
-`npm test`
+### Implementing your solutions ###
+Your solutions must be implemented on `lib/module${n}.js`.
+So for exercises of module1, you must edit `lib/module1.js`.
 
-If you would like to test a specific exercise you can do:
+In this file you'll see comments indicating where to implement your solution.
+You'll just export a function returning your answer.
 
-`mocha test/module{n}`
+In this comment you'll be informed about the answer format, which usually will be an object.
+Here you also can implement shared behavior between tests in a "private" scope (which could be not exported).
+
+### Running your solutions ###
+
+To test *all your solutions*:
+```shell
+npm test
+```
+
+If you would like to test *a specific solution of yours* you can do:
+
+```shell
+mocha `test/module${n}`
+```
 
 For instance, if you want to see how's your solution for module4, you should do:
 
-`mocha test/module4`
+```shell
+mocha test/module4
+```
 
-If you want to cheat and see the tests running green (filling it with the right solutions), you can run:
+### Checking the provided solutions ###
 
-`npm solutions`
+If you want to run tests with the *provided solutions*:
+
+```shell
+npm run solutions
+```
+
+To check for a *specific provided solution*:
+
+```shell
+mocha `test/module${n}` --cheat
+```
+
+This can be used to be sure the right solutions is really right :)
 
 ### Coverage ###
 
-Also, if you want to check tests coverage, you can run:
+If you want to check tests' coverage:
 
-`npm run cover`
+```shell
+npm run cover
+```
 
-### Lint - WIP ###
+### Lint ###
 
-In order to see if your code is attending to coding standards, you can run:
+To check if your code is attending to standards:
 
-`npm run lint`
+```shell
+npm run lint
+```
 
 ### Watch ###
 
 If you want to run lint + tests + coverage you can do:
 
-`npm run watch`
+```shell
+npm run watch
+```
 
-And this will listen for changes in your code (tests and solutions). As you change your code it'll run immediately and you'll see it on the console.
-
+And this will listen for changes in your code (tests and solutions).
+As you change your code it'll run immediately and you'll see it on the console.
 
 Obs: all commands using `npm` can be run with `yarn`.
 
-### Seeing your responses - WIP ###
-If instead of running tests you want to see your solutions, you can do (on the root dir):
-
-`node .`
-
-
-### Cheating ###
-If you want to cheat and see the answers you can run (on the root dir)
-
-`node . --cheat`
 
