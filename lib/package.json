@@ -1,7 +1,0 @@
-{
-  "dependencies": {
-    "bluebird": "^3.4.7",
-    "clear": "^0.0.1",
-    "nyan-progress": "^1.0.1"
-  }
-}
