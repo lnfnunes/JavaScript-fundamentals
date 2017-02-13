@@ -5,12 +5,12 @@ var solution1 = module4.exercise1();
 var solution2 = module4.exercise2();
 
 // Shared
-var doHumanTests = function (Human) {
+var doHumanTests = function doHumanTests(Human) {
   it('should have name', function () {
     expect(Human).to.have.property('name');
   });
 
-  it('should have age', function (Human) {
+  it('should have age', function () {
     expect(Human).to.have.property('age');
   });
 };
