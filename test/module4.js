@@ -4,7 +4,7 @@ var module4 = require('./cheat')('module4');
 var solution1 = module4.exercise1();
 var solution2 = module4.exercise2();
 
-// Shared
+// Shared tests
 var doHumanTests = function doHumanTests(Human) {
   it('should have name', function () {
     expect(Human).to.have.property('name');
@@ -15,7 +15,7 @@ var doHumanTests = function doHumanTests(Human) {
   });
 };
 
-// Tests
+// Tests ifself
 describe('Module4/Exercise1', function () {
   describe('Human', function() {
     doHumanTests(solution1.Human);
