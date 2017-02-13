@@ -1,18 +1,11 @@
-const expect = require('chai').expect;
+var expect = require('chai').expect;
+var module4 = require('./cheat')('module4');
 
-let module4;
-
-if(process.argv.includes('--cheat')) {
-  module4 = require('../lib/solutions/module4.js');
-} else {
-  module4 = require('../lib/module4.js');
-}
-
-const solution1 = module4.exercise1();
-const solution2 = module4.exercise2();
+var solution1 = module4.exercise1();
+var solution2 = module4.exercise2();
 
 // Shared
-const doHumanTests = function (Human) {
+var doHumanTests = function (Human) {
   it('should have name', function () {
     expect(Human).to.have.property('name');
   });
