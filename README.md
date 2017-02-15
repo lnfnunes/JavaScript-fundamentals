@@ -56,8 +56,8 @@ Could be studied by day as individual, group and/or dojo.
 > [Exercise 5](./exercises/5.module.md)
 
 ### Module 6 (1h) ###
-* [Try/Catch](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Control_flow_and_error_handling#Exception_handling_statements)
-* [Error](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Control_flow_and_error_handling#Utilizing_Error_objects)
+* [Error](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Control_flow_and_error_handling#Exception_handling_statements)
+* [Try/Catch](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/try...catch)
 * [console](https://developers.google.com/web/tools/chrome-devtools/console/console-reference)
 
 > [Exercise 6](./exercises/6.module.md)
