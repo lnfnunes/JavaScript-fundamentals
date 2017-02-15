@@ -8,12 +8,12 @@
   ],
   "main": "lib/index.js",
   "scripts": {
-    "lint": "./node_modules/eslint/bin/eslint.js lib test || true",
-    "cover": "./node_modules/nyc/bin/nyc.js mocha || true",
-    "test": "./node_modules/mocha/bin/mocha test || true",
-    "solutions": "./node_modules/mocha/bin/mocha test --cheat || true",
+    "lint": "node ./node_modules/eslint/bin/eslint.js lib test || true",
+    "cover": "node ./node_modules/nyc/bin/nyc.js mocha || true",
+    "test": "node ./node_modules/mocha/bin/mocha test || true",
+    "solutions": "node ./node_modules/mocha/bin/mocha test --cheat || true",
     "build": "npm run lint && npm run cover",
-    "watch": "./node_modules/nodemon/bin/nodemon.js -e js -w lib -w test --exec 'npm run build'"
+    "watch": "node ./node_modules/nodemon/bin/nodemon.js -e js -w lib -w test --exec \"npm run build\""
   },
   "keywords": [
     ""
