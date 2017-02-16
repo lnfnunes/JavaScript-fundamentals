@@ -8,12 +8,26 @@
   ],
   "main": "lib/index.js",
   "scripts": {
-    "lint": "./node_modules/eslint/bin/eslint.js lib test || true",
-    "cover": "./node_modules/nyc/bin/nyc.js mocha || true",
-    "test": "./node_modules/mocha/bin/mocha test || true",
-    "solutions": "./node_modules/mocha/bin/mocha test --cheat || true",
+    "lint": "node ./node_modules/eslint/bin/eslint.js lib test || true",
+    "cover": "node ./node_modules/nyc/bin/nyc.js mocha || true",
+    "test": "node ./node_modules/mocha/bin/mocha test || true",
+    "test1": "node ./node_modules/mocha/bin/mocha test/module1 || true",
+    "test2": "node ./node_modules/mocha/bin/mocha test/module2 || true",
+    "test3": "node ./node_modules/mocha/bin/mocha test/module3 || true",
+    "test4": "node ./node_modules/mocha/bin/mocha test/module4 || true",
+    "test5": "node ./node_modules/mocha/bin/mocha test/module5 || true",
+    "test6": "node ./node_modules/mocha/bin/mocha test/module6 || true",
+    "test7": "node ./node_modules/mocha/bin/mocha test/module7 || true",
+    "solutions": "node ./node_modules/mocha/bin/mocha test --cheat || true",
+    "solution1": "node ./node_modules/mocha/bin/mocha test/module1 --cheat || true",
+    "solution2": "node ./node_modules/mocha/bin/mocha test/module2 --cheat || true",
+    "solution3": "node ./node_modules/mocha/bin/mocha test/module3 --cheat || true",
+    "solution4": "node ./node_modules/mocha/bin/mocha test/module4 --cheat || true",
+    "solution5": "node ./node_modules/mocha/bin/mocha test/module5 --cheat || true",
+    "solution6": "node ./node_modules/mocha/bin/mocha test/module6 --cheat || true",
+    "solution7": "node ./node_modules/mocha/bin/mocha test/module7 --cheat || true",
     "build": "npm run lint && npm run cover",
-    "watch": "./node_modules/nodemon/bin/nodemon.js -e js -w lib -w test --exec 'npm run build'"
+    "watch": "node ./node_modules/nodemon/bin/nodemon.js -e js -w lib -w test --exec \"npm run build\""
   },
   "keywords": [
     ""
