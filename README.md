@@ -73,9 +73,11 @@ Could be studied by day as individual, group and/or dojo.
 
 > DOJO - JS Fundamentals
 
+* * *
+
 ## Implementing solutions for exercises ##
 
-You can check if your solutions are correct using the TDD paradigm.
+You can check if your solutions are correct using the [TDD paradigm](https://en.wikipedia.org/wiki/Test-driven_development "Test-Driven-Development").
 
 ### Setup environment ###
 If you use npm (default):
@@ -111,21 +113,21 @@ Here you also can implement shared behavior between tests in a "private" scope (
 
 ### Running your solutions ###
 
-To test *all your solutions*:
+To test _**ALL** solutions_:
 ```shell
 npm test
 ```
 
-If you would like to test *a specific solution of yours* you can do:
+If you would like to test _a **specific** solution of yours_ you can do:
 
 ```shell
-mocha `test/module${n}`
+npm run `test${n}`
 ```
 
 For instance, if you want to see how's your solution for module4, you should do:
 
 ```shell
-mocha test/module4
+npm run test4
 ```
 
 ### Checking the provided solutions ###
@@ -139,7 +141,7 @@ npm run solutions
 To check for a *specific provided solution*:
 
 ```shell
-mocha `test/module${n}` --cheat
+npm run `solution${n}`
 ```
 
 This can be used to be sure the right solutions is really right :)
@@ -169,8 +171,6 @@ npm run watch
 ```
 
 And this will listen for changes in your code (tests and solutions).
-As you change your code it'll run immediately and you'll see it on the console.
+As you change your code it'll run again automatically and you'll see it on the console.
 
 Obs: all commands using `npm` can be run with `yarn`.
-
-
