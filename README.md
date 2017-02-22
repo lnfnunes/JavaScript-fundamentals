@@ -5,13 +5,6 @@ This is an overview of the JavaScript language to help new developers get up and
 Content is splitted into small modules with suggestion time to complete the activy.
 Could be studied by day as individual, group and/or dojo.
 
-### Online editors ###
-
-* [CodePen](http://codepen.io)
-* [JSFiddle](http://jsfiddle.net)
-* [Cloud9](http://c9.io)
-* [GistRun](https://gist.run/)
-
 ## Content index ##
 
 ### Module 1 (1h) ###
@@ -77,48 +70,30 @@ Could be studied by day as individual, group and/or dojo.
 
 ## Implementing solutions for exercises ##
 
-You can check if your solutions are correct using the [TDD paradigm](https://en.wikipedia.org/wiki/Test-driven_development "Test-Driven-Development").
+We strongly recommend checking if your solutions are correct using the [TDD paradigm](https://en.wikipedia.org/wiki/Test-driven_development "Test-Driven-Development").
+
+For this, follow bellow instructions.
 
 ### Setup environment ###
-If you use npm (default):
 
 ```shell
-npm install
+1. Make sure you have NodeJS >= 6 installed.
+2. Clone this repo
+3. cd JavaScript-fundamentals
+4. npm install
 ```
-
-If you use yarn (it's a new tool for node packages which's way faster), you can use:
-
-```shell
-yarn install
-```
-
-### Before coding ###
-First you should fork this repository so you'll be able commit and push your solutions to github without worry about losing your code and also not mess up with the shared repository, which has the tests structure.
-
-However, if you'd like to retrieve new updates from the mainstream repository, you'll have to bring the changes manually to your repository.
-
-You can do this by adding the original remote to your forked repository and merging from there to your local repository.
-
-There's an easy tutorial to keep forked repositories updated [here](https://www.youtube.com/watch?v=-zvHQXnBO6c).
 
 ### Implementing your solutions ###
 Your solutions must be implemented on `lib/module${n}.js`.
+
 So for exercises of module1, you must edit `lib/module1.js`.
 
 In this file you'll see comments indicating where to implement your solution.
 You'll just export a function returning your answer.
 
-In this comment you'll be informed about the answer format, which usually will be an object.
-Here you also can implement shared behavior between tests in a "private" scope (which could be not exported).
+### Checking if your solution is correct ###
 
-### Running your solutions ###
-
-To test _**ALL** solutions_:
-```shell
-npm test
-```
-
-If you would like to test _a **specific** solution of yours_ you can do:
+To test _a **specific** solution of yours_ you can do:
 
 ```shell
 npm run `test${n}`
@@ -130,25 +105,18 @@ For instance, if you want to see how's your solution for module4, you should do:
 npm run test4
 ```
 
-### Checking the provided solutions ###
+* If the test fails it'll show on the console what's the spectation of solution, so you can fix it and the test runner will automatically check the solution again.
+* If the current testing exercise succeded, it'll check the solution of the next exercise of the module.
+* If you want to stop the test runner, just press _ctrl+c_.
 
-If you want to run tests with the *provided solutions*:
-
+To test _**ALL** solutions_ from all modules:
 ```shell
-npm run solutions
+npm test
 ```
-
-To check for a *specific provided solution*:
-
-```shell
-npm run `solution${n}`
-```
-
-This can be used to be sure the right solutions is really right :)
 
 ### Coverage ###
 
-If you want to check tests' coverage:
+If you want to check tests coverage:
 
 ```shell
 npm run cover
@@ -161,16 +129,5 @@ To check if your code is attending to standards:
 ```shell
 npm run lint
 ```
-
-### Watch ###
-
-If you want to run lint + tests + coverage you can do:
-
-```shell
-npm run watch
-```
-
-And this will listen for changes in your code (tests and solutions).
-As you change your code it'll run again automatically and you'll see it on the console.
 
 Obs: all commands using `npm` can be run with `yarn`.
