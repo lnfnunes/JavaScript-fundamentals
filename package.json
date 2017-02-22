@@ -17,6 +17,7 @@
     "test5": "npm run test -- -w -b -g Module5 || true",
     "test6": "npm run test -- -w -b -g Module6 || true",
     "test7": "npm run test -- -w -b -g Module7",
+    "dojo": "./node_modules/nodemon/bin/nodemon.js ./lib/dojo.js",
     "solutions": "node ./node_modules/mocha/bin/mocha test --cheat",
     "solution1": "npm run solutions -- -b -g Module1 || true",
     "solution2": "npm run solutions -- -b -g Module2 || true",
@@ -35,8 +36,10 @@
     "dojo"
   ],
   "devDependencies": {
+    "axios": "^0.15.3",
     "chai": "^3.5.0",
     "eslint": "^3.1.1",
+    "json-server": "^0.9.5",
     "mocha": "^3.2.0",
     "nodemon": "^1.11.0",
     "nsp": "^2.6.2",

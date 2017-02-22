@@ -64,7 +64,7 @@ Could be studied by day as individual, group and/or dojo.
 
 ### DOJO (2h) ###
 
-> DOJO - JS Fundamentals
+> [DOJO - JS Fundamentals](./docs/exercises/dojo.md)
 
 * * *
 
