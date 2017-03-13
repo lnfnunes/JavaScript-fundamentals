@@ -5,6 +5,13 @@ This is an overview of the JavaScript language to help new developers get up and
 Content is splitted into small modules with suggestion time to complete the activy.
 Could be studied by day as individual, group and/or dojo.
 
+## Table of contents ##
+
+* [Content index](#content-index)
+* [Implementing solutions for exercises](#implementing-solutions-for-exercises)
+* [Coverage](#coverage)
+* [Lint](#lint)
+
 ## Content index ##
 
 ### Module 1 (1h) ###
@@ -66,6 +73,8 @@ Could be studied by day as individual, group and/or dojo.
 
 > [DOJO - JS Fundamentals](./docs/exercises/dojo.md)
 
+[[ :top: ]](#)
+
 * * *
 
 ## Implementing solutions for exercises ##
@@ -114,7 +123,9 @@ To test _**ALL** solutions_ from all modules:
 npm test
 ```
 
-### Coverage ###
+[[ :top: ]](#)
+
+## Coverage ##
 
 If you want to check tests coverage:
 
@@ -122,7 +133,9 @@ If you want to check tests coverage:
 npm run cover
 ```
 
-### Lint ###
+[[ :top: ]](#)
+
+## Lint ##
 
 To check if your code is attending to standards:
 
@@ -130,4 +143,4 @@ To check if your code is attending to standards:
 npm run lint
 ```
 
-Obs: all commands using `npm` can be run with `yarn`.
+[[ :top: ]](#)
