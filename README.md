@@ -5,6 +5,8 @@ This is an overview of the JavaScript language to help new developers get up and
 Content is splitted into small modules with suggestion time to complete the activy.
 Could be studied by day as individual, group and/or dojo.
 
+Obs: after finishing this _"course"_ you can continue to the [nodeJS - Fundamentals](https://github.com/ciandt-dev/NodeJS-fundamentals) repository.
+
 ## Table of contents ##
 
 * [Content index](#content-index)
